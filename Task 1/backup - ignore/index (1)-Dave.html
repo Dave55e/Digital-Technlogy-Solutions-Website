@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Noryx Ltd | Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+        <nav>
+            <h1 id="title">NORYX Ltd</h1>
+            <ul>
+                <li><a href="./index (1).html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="./contact.html">About & Contact</a></li>
+            </ul>
+        </nav>
+    <h2 id = "intro-1">WHO WE ARE</h2>
+   <p>Noryx is a digital company that supports other companies in need of services.
+    We offer services such as tech and installing firewalls and any cybersecurity needs you have etc.
+   </p>
+
+   <h2 id = "intro-1">OUR SERVICES</h2>
+   <div class="cybersecurity">
+        <img id="cyber" src="./img/cyber2.png" alt="cybersecurity related image">
+        <h1 id="cyber_text">Cybersecurity</h1>
+        <button id = "view_more_cyber"><a id="view_more_cyber_a" href="">View More</a></button>
+   </div>
+    
+   <div class="cloud_solution">
+        <img id="cloud" src="./img/cloud.png" alt="cloud solution related image">
+        <h1 id="cloud_text">Cloud Solutions</h1>
+        <button id = "view_more_cloud"><a id="view_more_cloud_a" href="">View More</a></button>
+   </div>
+
+   <div class="web_dev">
+        <img id="web" src="./img/web dev.png" alt="web development related image">
+        <h1 id="web_text">Web Development</h1>
+        <button id = "view_more_web"><a id="view_more_cloud_a" href="">View More</a></button>
+   </div>
+
+   <div class="it_support">
+        <img id="it" src="./img/IT.png" alt="web development related image">
+        <h1 id="it_text">IT Support</h1>
+        <button id = "view_more_it"><a id="view_more_cloud_a" href="">View More</a></button>
+   </div>
+
+   <h2 id="intro-1">WHY CHOOSE US</h2>
+   
+   <div id="pricing">
+        <p>Transparent Pricing</p>
+        <img id="price_tag" src="./img/pricing.png" alt="image of a price tag">
+   </div>
+   
+    <div id="open_source">
+        <p>Fully Open Source</p>
+        <img src="./img/open source.png" alt="image of a price tag">
+   </div>
+
+   <div id="reviews">
+        <p>Excellent Customer Reviews</p>
+        <img src="./img/customer_reviews.png" alt="image of a customer holding a phone and giving a rating of 5 stars">
+   </div>
+
+   <div id="discount">
+        <p>Amazing First-Time Discounts & Offers</p>
+        <img src="./img/discount.png" alt="image of a discount tag">
+   </div>
+   
+   <img id="why_choose_us" src="./img/Why-Choose-Us.webp" alt="">
+   
+    <footer>
+        <p> &copy;2026 Innovate 2026</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Copilot Search Branding
+
+Like
+
+Dislike
+Making a Website Background Image Loop Forever
+You can create a “forever” background image in two main ways:
+
+Static loop — image repeats endlessly without moving (using background-repeat and background-attachment: fixed).
+
+Animated loop — image scrolls or pans in a seamless loop (using CSS animations or a long‑width image).
+
+Below are practical methods you can adapt.
+
+1. Static repeating background (no movement)
+If you just want the image to cover the screen and repeat without ending:
+
+Css
+
+Copy
+body {
+  margin: 0;
+  background-image: url('your-image.jpg');
+  background-repeat: repeat;        /* repeats in both directions */
+  background-attachment: fixed;    /* stays fixed while scrolling */
+  background-size: cover;         /* covers whole viewport */
+  min-height: 100vh;              /* full viewport height */
+}
+This keeps the image “forever” in place 
+www.tutorialpedia.org
+www.tutorialpedia.org
++1
+.
+
+2. Animated scrolling background
+For a moving, infinite loop, you can use a single long image and animate its position:
+
+HTML:
+
+Html
+
+Copy
+<div class="scrolling-bg"></div>
+CSS:
+
+Css
+
+Copy
+.scrolling-bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('your-long-image.jpg'); /* width > viewport, e.g., 5076px */
+  background-size: cover;
+  animation: scrollBg 20s linear infinite;
+}
+
+@keyframes scrollBg {
+  0% { background-position: 0px 0px; }
+  100% { background-position: -808px 0px; } /* match image height */
+}
+This method uses a single large image repeated in the animation loop so it never “ends” 
+CSS-Tricks
+CSS-Tricks
++1
+.
+Tip: The image width should be divisible by the animation’s number of repeats for seamless continuity 
+CSS-Tricks
+CSS-Tricks
+.
+
+3. Fixed background that stays still while scrolling
+If you want the image to stay locked in place while the page scrolls:
+
+Css
+
+Copy
+body {
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+This is useful for a “parallax” effect 
+Stack Overflow
+Stack Overflow
+.
+
+Best practices
+Image size: For animated loops, design the image to be wide enough to cover multiple viewport widths and aligned to the animation’s tile size 
+CSS-Tricks
+CSS-Tricks
+.
+
+Performance: Use transform or background-position animations instead of moving background images directly for better performance 
+Stack Overflow
+Stack Overflow
+.
+
+Responsiveness: Test on different devices; adjust background-size and animation timing for consistency.
+
+Accessibility: Ensure text and UI elements remain readable over the background.
+
+In short: For a static “forever” background, use background-repeat: repeat with background-attachment: fixed. For a moving loop, use a long image with a CSS @keyframes animation that repeats infinitely 
+CSS-Tricks
+CSS-Tricks
++2
+.-->
