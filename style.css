@@ -1,19 +1,13 @@
 body{
     background-image: url(./img/Untitled\ -\ 08\ October\ 2026\ at\ 23.09.54-19.png);
     background-repeat: no-repeat; 
-    
-    /* 2. Scales the image to cover the entire screen without distorting its aspect ratio */
     background-size: cover; 
-    
-    /* 3. Centers the background image on the screen */
     background-position: center; 
-    
-    /* 4. Optional: Keeps the background locked in place while the user scrolls */
-    background-attachment: fixed;
+    background-attachment: fixed; /*This tag ensures that the background image stays in place when the user scrolls*/
 }
 p{
     color: white;
-    font-family: verdana;
+    font-family: verdana; /*I changed the default font to verdana to make the text more appealing visually*/
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -51,7 +45,7 @@ ul li a:hover {
 nav{
     margin-bottom: 50px;
 }
-#intro-1{  /*remember to remove "who we are" from this id because the space it creates under noryx ltd is too much*/
+.intro-1{  
     text-decoration: underline;
     text-align: center;
     padding-top: 30px;
@@ -65,7 +59,7 @@ nav{
     height: 350px;
     border-radius: 15px;
     margin-left: 150px;
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px black; /*This adds a shadow around the boxes in the services section*/
     
 }
 #cyber{
@@ -320,28 +314,9 @@ form{
 
 
 
-
-
-
-
-
-
-
-
-
-/*
-.cybersecurity:hover{
-    width: 350px;
-    height: 400px;
-    transition: all .2s linear;
+@media screen and (max-width: 600px){
+    form{
+        width: 450px;
+    }
+   
 }
-
-
-
-
-.cybersecurity:hover{
-    -ms-transform: scale(1.5);  IE 9 
-  -webkit-transform: scale(1.5); Safari 3-8 
-  transform: scale(1.1); 
-}*/
- 
